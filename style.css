@@ -5,6 +5,63 @@
     padding: 0;
 }
 
+.logoo{
+  width: 60px;
+  border-radius: 15px;
+}
+
+.ticker {
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  background: #b0b0f5;
+  padding: 5px 0;
+  margin-bottom: 2px;
+  border-radius: 6px;
+}
+
+.ticker__move {
+  display: flex;
+  align-items: center;
+  animation: scroll 5s linear infinite;
+}
+
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.coin {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  font-size: 16px;
+}
+
+.coin span {
+  margin: 0 6px;
+}
+
+.price {
+  color: #fff;
+  font-weight: 600;
+}
+
+.up {
+  color: #22c55e; /* green */
+}
+
+.down {
+  color: #ef4444; /* red */
+}
+
+.coin img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
@@ -29,7 +86,7 @@ p {
     margin: 20px auto 0 auto; /* Centers the box horizontally (0 auto) and adds top margin (20px) */
     
     /* 2. Styling */
-    background-color: #90A7F3; /* Your specified background color */
+    background-color: #b0b0f5; /* Your specified background color */
     padding: 2% 5%; /* Padding inside the box (adjust as needed) */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Slightly adjusted shadow for a floating look */
     border-radius: 20px; /* Rounded corners */
@@ -830,5 +887,4 @@ section {
     .near-mobile__solver-box {
         padding: 40px 20px;
     }
-
 }
