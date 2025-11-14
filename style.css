@@ -29,7 +29,7 @@ p {
     margin: 20px auto 0 auto; /* Centers the box horizontally (0 auto) and adds top margin (20px) */
     
     /* 2. Styling */
-    background-color: #b0b0f5; /* Your specified background color */
+    background-color: #90A7F3; /* Your specified background color */
     padding: 2% 5%; /* Padding inside the box (adjust as needed) */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Slightly adjusted shadow for a floating look */
     border-radius: 20px; /* Rounded corners */
@@ -830,4 +830,5 @@ section {
     .near-mobile__solver-box {
         padding: 40px 20px;
     }
+
 }
